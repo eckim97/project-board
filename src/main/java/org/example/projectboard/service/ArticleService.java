@@ -9,7 +9,6 @@ import org.example.projectboard.domain.UserAccount;
 import org.example.projectboard.domain.constant.SearchType;
 import org.example.projectboard.dto.ArticleDto;
 import org.example.projectboard.dto.ArticleWithCommentsDto;
-import org.example.projectboard.dto.UserAccountDto;
 import org.example.projectboard.repository.ArticleRepository;
 import org.example.projectboard.repository.HashtagRepository;
 import org.example.projectboard.repository.UserAccountRepository;
