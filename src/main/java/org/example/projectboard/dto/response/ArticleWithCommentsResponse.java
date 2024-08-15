@@ -55,7 +55,7 @@ public record ArticleWithCommentsResponse(
                 .filter(ArticleCommentResponse::hasParentComment)
                 .forEach(comment -> {
                     ArticleCommentResponse parentComment = map.get(comment.parentCommentId());
-                    parentComment.childComments().add(comment);
+                     parentComment.childComments().add(comment);
                 });
 
         return map.values().stream()
